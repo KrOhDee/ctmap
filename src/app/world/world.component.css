@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin: auto;
+  max-height: auto;
+  max-width: 600px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.header {
+  text-align: center;
+  border-right: 5px red double;
+  border-left: 5px red double;
+}
+
+.h-style {
+  color: red;
+}
+
+.map {
+  flex: 1;
+}
+
+.info {
+  align-self: center;
+  font-size: 1.2rem;
+}
